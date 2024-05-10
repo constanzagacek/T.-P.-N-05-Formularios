@@ -10,7 +10,7 @@
 
 <body>
     <heater>
-        <img src="logo-toyota.svg" alt="Logo Toyota">
+        <img src="toyota.svg" alt="Logo Toyota">
         <h1>Toyota</h1>
         <h2><u>Formulario de registro</u></h2>
     </heater>
@@ -18,50 +18,74 @@
         <form action="">
             <fieldset>
                 <div>
-                    <label for="Nombre *">Nombre *</label>
-                    <input type="text" id="Nombre *" name="Nombre *" required>
-                    <label for="Apellido *">Apellido *</label>
-                    <input type="text" id="Apellido *" name="Apellido *" required>
+                    <label for="Nombre">Nombre*</label>
+                    <input type="text" id="Nombre" name="Nombre" required>
+                    <label for="Apellido">Apellido *</label>
+                    <input type="text" id="Apellido" name="Apellido" required>
                 </div>
 
                 <div>
-                    <label for="Correo electrónico">Correo electrónico *</label>
-                    <input type="email" id="Correo eelctrónico" name="Correo electrónico *" required>
+                    <label for="Correoelectronico">Correo electrónico *</label>
+                    <input type="email" id="Correoelctronico" name="Correoelectronico" required>
                 </div>
 
                 <div>
-                    <label for="fecha de ancimiento *">Fecha de nacimiento *</label>
-                    <input type="date" id="Fecha de nacimiento *" name="Fecha de nacimiento *" required>
+                    <label for="fechadenacimiento">Fecha de nacimiento *</label>
+                    <input type="date" id="Fechadenacimiento" name="Fechadenacimiento" required>
                 </div>
 
                 <div>
-                    <label for="D.N.I. *">D.N.I. *</label>
-                    <input type="text" id="D.N.I. *" name="D.N.I. *" required>
+                    <label for="DNI">D.N.I. *</label>
+                    <input type="text" id="DNI" name="DNI" required>
                 </div>
 
                 <div>
-                    <label for="Número de telefóno *">Número de telefóno *</label>
-                    <input type="text" id="Número de telefóno *" name="Número de telefóno *" required>
+                    <label for="Numerodetelefono">Número de telefóno *</label>
+                    <input type="text" id="Numerodetelefono" name="Numerodetelefono" required>
                 </div>
 
                 <div>
-                    <label for="Usuario de X *">Usuario de X *</label>
-                    <input type="text" id="Usuario de X *" name="Usuario de X *">
+                    <label for="UsuariodeX">Usuario de X *</label>
+                    <input type="text" id="UsuariodeX" name="UsuariodeX">
                 </div>
 
                 <div>
-                    <label for="Usuario de Instagram *">Usuario de Instagram *</label>
-                    <input type="text" id="Usuario de Instagram *" name="Usuario de Instagram *">
+                    <label for="UsuariodeInstagram">Usuario de Instagram *</label>
+                    <input type="text" id="UsuariodeInstagram" name="UsuariodeInstagram">
                 </div>
 
                 <div>
-                    <label for="Provincia *">Provincia *</label>
-                    <input type="text" id="Provincia *" name="Provincia *" required>
+                    <select id="Provincia" name="Provincia" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
+                        <option value="Rionegro">Río Negro</option>
+                        <option value="Neuquen">Neuquén</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Santacruz">Santa Cruz</option>
+                        <option value="Tucuman">Tucumán</option>
+                        <option value="Bunoaairess">Buenos Aires</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Cordoba">Córdoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Erios">Entre Ríos</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="Pampa">La Pampa</option>
+                        <option value="Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Salta">Salta</option>
+                        <option value="Sanjuan">San Juan</option>
+                        <option value="Sanluis">San Luis</option>
+                        <option value="Santafe">Santa Fé</option>
+                        <option value="Santiago">Santiago Del Estero</option>
+                        <option value="Tierradelfuego">Tierra Del Fuego</option>
+                    </select>
                 </div>
 
                 <div>
-                    <label for="Ciudad *">Ciudad *</label>
-                    <input type="text" id="Ciudad *" name="Ciudad *" required>
+                    <label for="Ciudad">Ciudad *</label>
+                    <input type="text" id="Ciudad " name="Ciudad" required>
                 </div>
 
             </fieldset>
@@ -70,52 +94,51 @@
 
             <fieldset>
                 <div>
-                    <form action="/encuesta" method="post">
-                        <label for="¿Qué tipo de vehículo estás buscando actualmente?">¿Qué tipo de vehículo estás
-                            buscando actualmente?</label>
-                        <select id="¿Qué tipo de vehículo estás buscando actualmente?"
-                            name="¿Qué tipo de vehículo estás buscando actualmente?" required>
-                            <option value="Seleccione una opción">Seleccione una opción</option>
-                            <option value="Sedán">Sedán</option>
-                            <option value="SUV">SUV</option>
-                            <option value="Camioneta">Camioneta</option>
-                            <option value="Híbrido">Híbrido</option>
-                            <option value="Otro...">Otro...</option>
-                        </select>
+
+                    <label for="Quetipodevehículoestásbuscandoactualmente">¿Qué tipo de vehículo estás
+                        buscando actualmente?</label>
+                    <select id="Quetipodevehiculoestasbuscandoactualmente"
+                        name="Quetipodevehiculoestasbuscandoactualmente" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
+                        <option value="Sedan">Sedán</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Camioneta">Camioneta</option>
+                        <option value="Hibrido">Híbrido</option>
+                        <option value="Otro">Otro...</option>
+                    </select>
                 </div>
 
                 <div>
-                    <label for="¿Cuáles son tus prioridades al elegir un automóvil nuevo?">¿Cuáles son tus prioridades
+                    <label for="Cualeslessontusprioridadesalelegirunautomovilnuevo">¿Cuáles son tus prioridades
                         al elegir un automóvil nuevo?</label>
-                    <select id="¿Cuáles son tus prioridades al elegir un automóvil nuevo?"
-                        name="¿Cuáles son tus prioridades al elegir un automóvil nuevo?" required>
-                        <option value="Seleccione una opción">Seleccione una opción</option>
-                        <option value="Espacio interior">Espacio interior</option>
-                        <option value="Tecnología">Tecnología</option>
+                    <select id="Cualessontusprioridadesalelegirunautomovilnuevo"
+                        name="Cualessontusprioridadesalelegirunautomovilnuevo" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
+                        <option value="Espaciointerior">Espacio interior</option>
+                        <option value="Tecnologia">Tecnología</option>
                         <option value="Seguridad">Seguridad</option>
-                        <option value="Estilo de vida">Estilo de vida</option>
-                        <option value="Otro...">Otro...</option>
+                        <option value="Estilodevida">Estilo de vida</option>
+                        <option value="Otro">Otro...</option>
                     </select>
                 </div>
 
                 <div>
-                    <label for="¿Qué tipo de motorización prefieres?">¿Qué tipo de motorización prefieres? </label>
-                    <select id="¿Qué tipo de motorización prefieres? " name="¿Qué tipo de motorización prefieres?"
-                        required>
-                        <option value="Seleccione una opción">Seleccione una opción</option>
+                    <label for="Quetipodemotorizacionprefieres">¿Qué tipo de motorización prefieres? </label>
+                    <select id="Quetipodemotorizacionprefieres" name="Quetipodemotorizacionprefieres" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
                         <option value="Gasolina">Gasolina</option>
-                        <option value="Híbrido">Híbrido</option>
-                        <option value="Eléctrico">Eléctrico</option>
-                        <option value="Otro...">Otro...</option>
+                        <option value="Hibrido">Híbrido</option>
+                        <option value="Electrico">Eléctrico</option>
+                        <option value="Otro">Otro...</option>
                     </select>
                 </div>
 
                 <div>
-                    <label for="¿Tienes alguna preferencia en cuánto al tamaño del vehículo?">¿Tienes alguna preferencia
+                    <label for="Tienesalgunapreferenciaencuantoaltamanodelvehiculo">¿Tienes alguna preferencia
                         en cuánto al tamaño del vehículo?</label>
-                    <select id="¿Tienes alguna preferencia en cuánto al tamaño del vehículo?"
-                        name="¿Tienes alguna preferencia en cuánto al tamaño del vehículo??" required>
-                        <option value="Seleccione una opción">Seleccione una opción</option>
+                    <select id="Tienesalgunapreferenciaencuantoaltamañodelvehiculo"
+                        name="Tienesalgunapreferenciaencuantoaltamañodelvehiculo" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
                         <option value="Compacto">Compacto</option>
                         <option value="Mediano">Mediano</option>
                         <option value="Grande">Grande</option>
@@ -123,25 +146,29 @@
                 </div>
 
                 <div>
-                    <label for="¿Qué características de comodidad interior son importantes para vos?">¿Qué
+                    <label for="Quecaracteristicasdecomodidadinteriorsonimportantesparavos">¿Qué
                         características de comodidad interior son importantes para vos?</label>
-                    <select id="¿Qué características de comodidad interior son importantes para vos?"
-                        name="¿Qué características de comodidad interior son importantes para vos?" required>
-                        <option value="Seleccione una opción">Seleccione una opción</option>
-                        <option value="Asientos ajustables">Asientos ajustables</option>
-                        <option value="Sistema de entretenimiento">Sistema de entretenimiento</option>
-                        <option value="Conectividad Bluetooth">Conectividad Bluetooth</option>
-                        <option value="Iluminación interna">Iluminación interna</option>
-                        <option value="Otro...">Otro...</option>
+                    <select id="Quecaracteristicasdecomodidadinteriorsonimportantesparavos"
+                        name="Quecaracteristicasdecomodidadinteriorsonimportantesparavos" required>
+                        <option value="Seleccioneunaopcion">Seleccione una opción</option>
+                        <option value="Asiento ajustables">Asientos ajustables</option>
+                        <option value="Sistemadeentretenimiento">Sistema de entretenimiento</option>
+                        <option value="ConectividadBluetooth">Conectividad Bluetooth</option>
+                        <option value="Iluminacioninterna">Iluminación interna</option>
+                        <option value="Otro">Otro...</option>
                     </select>
                 </div>
 
                 <div>
-                    <label for="Color de preferencia">Color de preferencia</label>
-                    <input type="text" id="Color de preferencia" name="Color de preferencia">
+                    <label for="Colordepreferencia">Color de preferencia</label>
+                    <input type="color" id="Colordepreferencia" name="Colordepreferencia">
                 </div>
             </fieldset>
 
+            <div>
+                <label for="Comentario">Ingresar datos de su aseguradora actual</label>
+                <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+            </div>
 
             <div>
                 <input type="submit" value="Enviar">

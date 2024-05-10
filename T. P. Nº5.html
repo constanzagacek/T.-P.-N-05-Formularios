@@ -182,7 +182,8 @@
             <tr>
                 <td>206</td>
                 <td>Parcial Content</td>
-                <td> ➢ La petición servirá parcialmente el contenido solicitado. Esta característica es utilizada por <br>
+                <td> ➢ La petición servirá parcialmente el contenido solicitado. Esta característica es utilizada por
+                    <br>
                     herramientas de descarga como wget para continuar la transferencia de descargas anteriormente <br>
                     interrumpidas, o para dividir una descarga y procesar las partes simultáneamente.</td>
             </tr>
@@ -198,13 +199,15 @@
             <tr>
                 <td>208</td>
                 <td>Multi-Status</td>
-                <td> ➢ El listado de elementos DAV ya se notificó previamente, por lo que no se van a volver a listar.</td>
+                <td> ➢ El listado de elementos DAV ya se notificó previamente, por lo que no se van a volver a listar.
+                </td>
             </tr>
 
             <tr>
                 <td>226</td>
                 <td>IM Used</td>
-                <td> ➢ El servidor ha cumplido una petición GET para el recurso y la respuesta es una representación <br>
+                <td> ➢ El servidor ha cumplido una petición GET para el recurso y la respuesta es una representación
+                    <br>
                     del resultado de una o más manipulaciones de instancia aplicadas a la instancia actual.</td>
             </tr>
 
@@ -300,7 +303,8 @@
             <tr>
                 <td><strong><i>402</i></strong></td>
                 <td><strong><i>Payment Required</i></strong></td>
-                <td><strong><i> ➢ Este código de respuesta está reservado para futuros usos. El objetivo inicial de crear
+                <td><strong><i> ➢ Este código de respuesta está reservado para futuros usos. El objetivo inicial de
+                            crear
                             <br>
                             estecódigo fue para ser utilizado en sistemas digitales de pagos. Sin embargo, no está <br>
                             siendo usado actualmente.</i></strong></td>
@@ -309,14 +313,16 @@
             <tr>
                 <td>403</td>
                 <td>Forbiden</td>
-                <td> ➢ El cliente no posee los permisos necesarios para cierto contenido, por lo que el servidor está <br>
+                <td> ➢ El cliente no posee los permisos necesarios para cierto contenido, por lo que el servidor está
+                    <br>
                     rechazando otorgar una respuesta apropiada.</td>
             </tr>
 
             <tr>
                 <td>404</td>
                 <td>Not Found</td>
-                <td> ➢ El servidor no pudo encontrar el contenido solicitado. Este código de respuesta es uno de los <br>
+                <td> ➢ El servidor no pudo encontrar el contenido solicitado. Este código de respuesta es uno de los
+                    <br>
                     más famosos dada su alta ocurrencia en la web.</td>
             </tr>
 
@@ -349,7 +355,8 @@
                 <td>408</td>
                 <td>Request Timeout</td>
                 <td> ➢ Esta respuesta es enviada en una conexión inactiva en algunos servidores, incluso sin alguna <br>
-                    petición previa por el cliente. Significa que el servidor quiere desconectar esta conexión sin usar.<br>
+                    petición previa por el cliente. Significa que el servidor quiere desconectar esta conexión sin
+                    usar.<br>
                     Esta respuesta es muy usada desde algunos navegadores, como Chrome, Firefox 27+, o IE9, usa <br>
                     mecanismos de pre-conexión HTTP para acelerar la navegación. También hay que tener en cuenta <br>
                     que algunos servidores simplemente desconecta la conexión sin enviar este mensaje.</td>
@@ -358,20 +365,23 @@
             <tr>
                 <td>409</td>
                 <td>Conflic</td>
-                <td> ➢ Esta respuesta puede ser enviada cuando una petición tiene conflicto con el estado actual del <br>
+                <td> ➢ Esta respuesta puede ser enviada cuando una petición tiene conflicto con el estado actual del
+                    <br>
                     servidor.</td>
             </tr>
 
             <tr>
                 <td>410</td>
                 <td>Gone</td>
-                <td> ➢ Esta respuesta puede ser enviada cuando el contenido solicitado ha sido borrado del servidor.</td>
+                <td> ➢ Esta respuesta puede ser enviada cuando el contenido solicitado ha sido borrado del servidor.
+                </td>
             </tr>
 
             <tr>
                 <td>411</td>
                 <td>Length Required</td>
-                <td> ➢ El servidor rechaza la petición porque el campo de encabezado Content-Length no esta definido y <br>
+                <td> ➢ El servidor rechaza la petición porque el campo de encabezado Content-Length no esta definido y
+                    <br>
                     el servidor lo requiere.</td>
             </tr>
 
@@ -454,15 +464,18 @@
                 <td>Upgrade Required</td>
                 <td> ➢ El servidor se rehúsa a aplicar la solicitud usando el protocolo actual pero puede estar <br>
                     dispuesto a hacerlo después que el cliente se actualice a un protocolo diferente. <br>
-                    El servidor envía un encabezado Upgrade en una respuesta para indicar los protocolos requeridos.</td>
+                    El servidor envía un encabezado Upgrade en una respuesta para indicar los protocolos requeridos.
+                </td>
             </tr>
 
             <tr>
                 <td>428</td>
                 <td>Precondition Required</td>
                 <td> ➢ El servidor origen requiere que la solicitud sea condicional. Tiene la intención de prevenir <br>
-                    problemas de 'actualización perdida', donde un cliente OBTIENE un estado del recurso, lo modifica, <br>
-                    y lo PONE devuelta al servidor, cuando mientras un tercero ha modificado el estado del servidor, <br>
+                    problemas de 'actualización perdida', donde un cliente OBTIENE un estado del recurso, lo modifica,
+                    <br>
+                    y lo PONE devuelta al servidor, cuando mientras un tercero ha modificado el estado del servidor,
+                    <br>
                     llevando a un conflicto.</td>
             </tr>
 
@@ -518,7 +531,8 @@
                     Estas respuestas deben ser usadas para condiciones temporales y el encabezado HTTP Retry-After: <br>
                     debería, si es posible, contener el tiempo estimado antes de la recuperación del servicio. <br>
                     El webmaster debe también cuidar los encabezados relacionados al caché que son enviados junto <br>
-                    a esta respuesta, ya que estas respuestas de condición temporal deben usualmente no estar en el caché.</td>
+                    a esta respuesta, ya que estas respuestas de condición temporal deben usualmente no estar en el
+                    caché.</td>
             </tr>
 
             <tr>
@@ -564,9 +578,10 @@
             <tr>
                 <td>511</td>
                 <td>Network Authentication Required</td>
-                <td> ➢ El código de estado 511 indica que el cliente necesita autenticar para obtener acceso a la red.</td>
+                <td> ➢ El código de estado 511 indica que el cliente necesita autenticar para obtener acceso a la red.
+                </td>
             </tr>
-            
+
         </table>
 
     </main>
